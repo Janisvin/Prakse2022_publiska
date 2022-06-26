@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !/css
+    RewriteCond %{REQUEST_FILENAME} !/js
+    RewriteCond %{REQUEST_FILENAME} !/img
+    RewriteCond %{REQUEST_FILENAME} !/index\.php$
+    RewriteCond %{REQUEST_FILENAME} !/view\.php$
+    RewriteCond %{REQUEST_FILENAME} !/edit_view\.php$
+    RewriteCond %{REQUEST_FILENAME} !/users\.php$
+    RewriteCond %{REQUEST_FILENAME} !/view_user_info\.php$
+    RewriteCond %{REQUEST_FILENAME} !/post_submit.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/login\.php$
+    RewriteCond %{REQUEST_FILENAME} !/login_confirm_delete\.php$
+    RewriteCond %{REQUEST_FILENAME} !/signup\.php$
+    RewriteCond %{REQUEST_FILENAME} !/edit_login_user\.php$
+    RewriteCond %{REQUEST_FILENAME} !/edit_login_admin\.php$
+    RewriteCond %{REQUEST_FILENAME} !/edit_user\.php$
+    RewriteCond %{REQUEST_FILENAME} !/edit_user_admin\.php$
+    RewriteCond %{REQUEST_FILENAME} !/edit_user.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_user.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/contact\.php$
+    RewriteCond %{REQUEST_FILENAME} !/message\.php$
+    RewriteCond %{REQUEST_FILENAME} !/contact.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/contact_php.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/logout.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/logout_delete.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/contact_admin\.php$
+    RewriteCond %{REQUEST_FILENAME} !/contact_admin.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/contact_admin_table\.php$
+    RewriteCond %{REQUEST_FILENAME} !/users_admin\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_contact_admin.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_contact_user.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_message.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_contact_user_admin.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_user_admin.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/delete_view.inc\.php$
+    RewriteCond %{REQUEST_FILENAME} !/error\.php$
+    RewriteCond %{REQUEST_FILENAME} !/sort\.js$
+
+    
+    RewriteRule (.*) https://janisvincevics.online/index.php?error=navpieeja [R=301,L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    Order allow,deny
+    <Files ~ "\.(jpg|jpeg|png|gif|pdf|txt|bmp)$">
+        allow from all
+     </Files>
+</IfModule>
+

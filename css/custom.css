@@ -1,0 +1,110 @@
+
+  .darkmode--activated .modal{
+    color: #000000; 
+  }
+  .darkmode--activated .modal p{
+    color: #000000; 
+  }
+  .darkmode--activated .form-check-label{
+    color: #bdbdbd; 
+  }
+  .darkmode--activated .form-label p{
+    color: #bdbdbd; 
+  }
+  .darkmode--activated .modal-{
+    background-color: #000;
+  }
+
+  
+.darkmode--activated .table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+    vertical-align: top;
+    border-color: #dee2e6;
+  }
+
+  .darkmode--activated .table-responsive p {
+
+    color: #000000;
+
+  }
+
+  .darkmode--activated .table-light {
+    --bs-table-bg: #000000;
+    --bs-table-striped-bg: #2c3034;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: rgb(255, 255, 255);
+    border-color: #373b3e;
+  }
+
+  .darkmode--activated .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(45, 51, 56);
+    color: white;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+
+  .darkmode--activated .logo {
+    mix-blend-mode: difference;
+  }
+
+  .button {
+    isolation: isolate;
+    z-index: 1337;
+ 
+  }
+
+.footer{
+  z-index: 2000;
+}
+
+  .dropdown-menu{
+    z-index: 1339;
+  }
+
+  .btn { 
+    isolation: isolate;
+    z-index: 1335;
+ 
+  }
+  a .btn{
+    z-index: 1335;
+  }
+
+  .darkmode-toggle{
+    z-index: 1337;
+  }
+
+.card{
+  background: rgb(240, 240, 240);
+  border-color: rgba(147, 172, 173, 0.541);
+}
+
+.page-link{
+background: rgb(240, 240, 240);
+border-color: rgba(147, 172, 173, 0.541);
+}
+
+.darkmode--activated .page-link{
+  background: rgb(45, 51, 56);
+  border-color: rgba(147, 172, 173, 0.233);
+  }
