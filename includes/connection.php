@@ -1,6 +1,6 @@
 
 <?php
-$con = mysqli_connect("127.0.0.1:3306", "u180685278_OVnDt", "UjkasdfbnvCphpmyadmin12323", "u180685278_urcxZ");
+$con = mysqli_connect("127.0.0.1:3306", "u180685278_OVnDt", "naradisu", "u180685278_urcxZ");
 if (!$con) {
     die(" Connection Error ");
 }
@@ -10,7 +10,7 @@ if (!$con) {
 $databaseHost = '127.0.0.1:3306';
 $databaseName = 'u180685278_urcxZ';
 $databaseUsername = 'u180685278_OVnDt';
-$databasePassword = 'UjkasdfbnvCphpmyadmin12323';
+$databasePassword = 'neradisu';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 
